@@ -8,13 +8,15 @@ inputs.addEventListener("blur", updateItem);
 inputs.addEventListener("keypress", itemKeyPress);
 
 
-function editItem(){
-    this.className = "edit";
-    var input = this.querySelector("input");
-    input.focus();
-    input.setSelectionRange(0, input.value.length);
-    if(input.value === "12345678"){
-        console.log("Girdim");
+class editItem {
+    constructor() {
+        this.className = "edit";
+        var input = this.querySelector("input");
+        input.focus();
+        input.setSelectionRange(0, input.value.length);
+        if (input.value === "12345678") {
+            console.log("Girdim");
+        }
     }
 }
 
@@ -35,5 +37,5 @@ function itemKeyPress(event){
 }
 
 function chanegeScreen(){
-    window.location.href = "http://127.0.0.1:5500/myProject/my2/myIndex2.html";
+    window.location.href = "http://127.0.0.1:5500/my2/myIndex2.html";
 }

@@ -20,7 +20,7 @@ function yes(){
 }
 
 function changeIt(){
-    console.log("Burdayımmmmm");
+    console.log("Burdayimmmmm");
     myRandom(600,1150);
     myNo.setAttribute('style', 'top: '+x+'px; left: '+y+'px;');
 }
