@@ -1,0 +1,71 @@
+body{
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin: 1% 45% 0 45%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(241, 158, 172);
+    display: inline-block;
+}
+
+#message{
+    margin: 6% 38% 2% 38%;
+    background-color: rgb(241, 158, 172);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 12px;
+    padding: 13px 20px;
+}
+
+.gif{
+    min-height: 5vh;
+    min-width: 5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 0 8%;
+    margin: 0% 30% 0% 30%;
+}
+
+.gif2{
+    min-height: 5vh;
+    min-width: 5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 0 8%;
+    margin: 0% 30% 0% 33%;
+}
+
+.button{
+    display:inline-block;
+    background-color: rgb(236, 93, 117);
+    color: white;
+    padding: 7px 30px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: rgb(203, 155, 163);
+    box-shadow: 2px 2px gray;
+    text-align: center;
+    position: relative;
+}
+
+#first{
+    margin: 1% 8% 5% 40%;
+}
+
+#second{
+    background-color: white;
+    color: rgb(236, 93, 117);
+}
+
+.makeinvisible{
+    display: none;
+}
+
