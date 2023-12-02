@@ -13,7 +13,7 @@ function editItem(){
     var input = this.querySelector("input");
     input.focus();
     input.setSelectionRange(0, input.value.length);
-    if (input.value === "12345678") {
+    if (input.value === "02122003") {
         console.log("Girdim");
     }
 }
