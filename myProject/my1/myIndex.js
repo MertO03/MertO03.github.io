@@ -15,6 +15,7 @@ function editItem(){
     input.setSelectionRange(0, input.value.length);
     if (input.value === "02122003") {
         console.log("Girdim");
+        chanegeScreen();
     }
 }
 
