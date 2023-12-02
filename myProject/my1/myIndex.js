@@ -8,7 +8,7 @@ inputs.addEventListener("blur", updateItem);
 inputs.addEventListener("keypress", itemKeyPress);
 
 
-class editItem {
+class editItem() {
     constructor() {
         this.className = "edit";
         var input = this.querySelector("input");
