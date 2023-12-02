@@ -37,5 +37,5 @@ function itemKeyPress(event){
 }
 
 function chanegeScreen(){
-    window.location.href = "http://127.0.0.1:5500/my2/myIndex2.html";
+    window.location.href = "https://merto03.github.io/myProject/my2/myIndex2.html";
 }
