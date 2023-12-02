@@ -37,5 +37,6 @@ function itemKeyPress(event){
 }
 
 function chanegeScreen(){
+    debug.log("hadi amaa");
     window.location.href = "https://merto03.github.io/myProject/my2/myIndex2.html";
 }
